@@ -11,3 +11,5 @@ ggplot(td, aes(x=hjust, y=vjust)) +
     facet_grid(~angle) +
     scale_x_continuous(breaks=c(0, 0.5, 1), expand=c(0, 0.2)) +
     scale_y_continuous(breaks=c(0, 0.5, 1), expand=c(0, 0.2))
+
+#From: https://gist.github.com/benmarwick/8b95b8fb226986bd86a47ad92e0017f2
